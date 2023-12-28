@@ -5,12 +5,14 @@ import Sustainability from './Components/Sustainability'
 import About from './Components/About'
 import Contact from './Components/Contact'
 import { Route, Routes } from 'react-router-dom'
+import Home from './Components/Home'
 
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='sustainability' element={<Sustainability />} />
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
