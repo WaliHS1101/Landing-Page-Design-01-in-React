@@ -1,0 +1,11 @@
+.topboximg {
+    height: 65vh;
+    background-image: url(Image/TopBox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position-x: center;
+}
+.TopBoxMainText{
+    padding-top: 20%;
+}

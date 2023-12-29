@@ -1,8 +1,9 @@
 import React from 'react'
+import TopBox from './Home/TopBox'
 
 function Home() {
   return (
-    <div>Home</div>
+    <TopBox />
   )
 }
 

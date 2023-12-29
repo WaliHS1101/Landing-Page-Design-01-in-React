@@ -13,7 +13,7 @@ function Navbar() {
 
         <Link to="/" className="nav-link "><span className="navbar-brand">WHS</span></Link>
 
-        <div id="Nav-Bar" className='collapse navbar-collapse justify-content-around'>
+        <div id="Nav-Bar" className='collapse navbar-collapse justify-content-end'>
 
           <ul className='navbar-nav'>
 
