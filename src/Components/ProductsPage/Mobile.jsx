@@ -2,7 +2,11 @@ import React from 'react'
 
 function Mobile() {
   return (
-    <div>Mobile</div>
+    <>
+      <div className='container '>
+        <div>Mobile</div>
+      </div>
+    </>
   )
 }
 

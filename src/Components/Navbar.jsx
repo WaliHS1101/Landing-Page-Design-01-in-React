@@ -15,11 +15,7 @@ function Navbar() {
 
         <div id="Nav-Bar" className='collapse navbar-collapse justify-content-end'>
 
-          <ul className='navbar-nav'>
-
-            <li className='nav-item'>
-              <Link to="mobile" className='nav-link'><b>All Products</b></Link >
-            </li>
+          <ul className='navbar-nav ms-3'>
 
             <li className='nav-item'>
               <Link to="sustainability" className='nav-link'><b>Sustainability</b></Link >
@@ -34,6 +30,18 @@ function Navbar() {
             </li>
 
           </ul>
+
+          <div className='dropdown'>
+            <button className='btn btn-light' type="button" data-bs-toggle="dropdown">
+              <b>All Products</b>
+            </button>
+            <ul className='dropdown-menu'>
+              <li className=''>
+                <Link to="mobile" className='dropdown-item'>Mobile</Link>
+              </li>
+            </ul>
+
+          </div>
 
         </div>
 
