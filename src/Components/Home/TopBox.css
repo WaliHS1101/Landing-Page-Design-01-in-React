@@ -1,11 +1,17 @@
 .topboximg {
-    height: 65vh;
-    background-image: url(Image/TopBox.jpg);
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.336)), url(Image/TopBox.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
     background-position-x: center;
 }
-.TopBoxMainText{
+
+.TopBoxMainText {
     padding-top: 20%;
+    font-size: 65px;
+}
+
+.PaBoxMainText {
+    font-size: 20px;
 }
